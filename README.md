@@ -156,4 +156,14 @@ inline-block元素特点：
 	sessionStorage和localStorage各自独立的存储空间; 
 	localStorage 长期存储数据，浏览器关闭后数据不丢失; 
 	sessionStorage 数据在浏览器关闭后自动删除。
+	sessionStorage和localStorage各自独立的存储空间; 是
+	sessionStorage和localStorage各自独立的存储空间;  
+#18. 箭头函数和普通函数的区别
+	1.箭头函数是匿名函数不能作为构造函数，不能使用NEW；
+	2.箭头函数不绑定arguments，取而代之用rest参数...解决；
+	3.箭头函数不绑定this，会捕获其所在的上下文的this值，作为自己的this值；
+	4.箭头函数通过 call()  或   apply() 方法调用一个函数时，只传入了一个参数，对 this 并没有影响。
+	5.箭头函数没有原型属性；
+	6.
+
 
